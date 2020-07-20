@@ -5,12 +5,6 @@ import logo from '../assets/images/logo.png';
 import backgroundPhoto from '../assets/images/background.jpg'
 
 class Bottomheader extends Component {
-	constructor(props) {
-    super(props);
-    this.state = {
-		};
-	}
-
 	render() {
 		return (
 			<React.Fragment>
@@ -20,9 +14,23 @@ class Bottomheader extends Component {
 							<img className='logo-width' src={logo} alt=""/>
 						</div>
 					</div>
-					<div className='row'>
+					<div className='row text-center'>
 						<div style={{backgroundColor:'#004A75'}} className='back-image'></div>		
 						<img className='image-width' src={backgroundPhoto} alt=""/>
+					</div>
+					<div className='row'>
+						<div className='col-lg-12 text-center overlay-text'>
+							<span className='fs-48 lh-60'>
+								Hello! I'm Lelianto Eko Pradana <br/>
+							</span>
+							<span className='font-weight-bold fs-32 lh-60'>
+								Consult, Design, and Develop Websites <br/>
+							</span>
+							<span className='fs-24'>
+								Have something great in mind? Feel free to contact me. <br/>
+								I'll help you to make it happen.
+							</span>
+						</div>
 					</div>
 				</div>
 			</React.Fragment>
