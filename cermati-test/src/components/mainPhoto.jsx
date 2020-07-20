@@ -30,6 +30,11 @@ class Bottomheader extends Component {
 								Have something great in mind? Feel free to contact me. <br/>
 								I'll help you to make it happen.
 							</span>
+							<div className='mt-20'>
+								<span className='fs-24 outer-box'>
+									LET'S MAKE CONTACT
+								</span>
+							</div>
 						</div>
 					</div>
 				</div>
