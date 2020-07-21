@@ -53,13 +53,13 @@ class Bottomheader extends Component {
 						<br/>
 						<span className='fs-24'>
 							Our work then targeted, best practices outcomes social innovation synergy. <br/>
-							Venture philanthropy, revolutionary inclusive policymaker relief. <br/> User-centered
+							Venture philanthropy, revolutionary inclusive policymaker relief. User-centered
 							program areas scale.
 						</span>
 					</div>
 					<div className='row'>
 						{datas.map((item)=>
-						<div className='col-lg-4 mt-20 mb-12 text-left'>
+						<div className='col-lg-4 col-md-6 col-sm-12 mt-20 mb-12 text-left'>
 							<div className='service-card'>
 								<div className='mb-12'>
 									<span className='fs-24'>

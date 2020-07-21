@@ -54,6 +54,10 @@
 	margin-top: 8px;
 }
 
+.mtop-5 {
+	margin-top: 5px;
+}
+
 .mt-12 {
 	margin-top: 12px;
 }
@@ -96,6 +100,10 @@
 
 .dark-blue {
 	color: blue;
+}
+
+.text-white {
+	color: white;
 }
 
 .gotit-button {
@@ -186,4 +194,109 @@
 	background-color: rgb(0,74,117);
 	padding: 30px 0px;
 	color: white;
+	position: relative;
+	bottom: 0;
+}
+
+.popmail-box {
+	padding: 20px;
+}
+
+.w-100 {
+	width: 100%;
+}
+.text-email {
+	padding: 5px 10px;
+    border: transparent;
+}
+.box-email {
+	background-color: ​#ff8000;
+	padding: 5px 15px;
+}
+
+.mt-m-20 {
+	margin-top: -20px;
+}
+
+.cursor {
+	cursor: pointer;
+}
+
+.position-popup {
+	position: fixed;
+	z-index: 1000;
+	bottom: 0;
+}
+
+.slide-up-footer {
+	animation: Slide_Up_Footer 1s ease-in;
+}
+
+.display-set {
+	display: none;
+}
+
+@keyframes Slide_Up_Footer {
+	0%{
+			transform: translateY(200px);
+	}
+	100%{
+			transform: translateY(0px);
+	}
+}
+
+@media screen and (max-width: 960px) {
+	.logo-width {
+		float: left;
+	}
+	.pt-35 {
+		padding-top: 0;
+	}
+	.pb-25 {
+		padding-bottom: 25px;
+	}
+	.ml-20 {
+		margin-left: 20px;
+	}
+	.box-email {
+		display: flex;
+		text-align: center;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.logo-width {
+		position: relative;
+		z-index: 300;
+		width: 50px;
+		height: 50px;
+		margin-top: 0px;
+		margin-left: -10px;
+	}
+	.logo-width {
+		float: left;
+	}
+	.pt-35 {
+		padding-top: 0;
+	}
+	.pb-25 {
+		padding-bottom: 25px;
+	}
+	.ml-20 {
+		margin-left: 20px;
+	}
+	.fs-48 {
+		font-size: 32px;
+	}
+	.fs-32 {
+		font-size: 24px;
+	}
+	.fs-24 {
+		font-size: 16px;
+	}
+	.box-email {
+		display: flex;
+		justify-content: center;
+	}
 }

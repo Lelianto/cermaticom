@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import '../styles/css/main.css'
+import '../styles/css/main.css';
 import Upperheader from '../components/index';
 import Bottomheader from '../components/mainPhoto';
 import ServiceCard from '../components/serviceCard';
-import Footer from '../components/footer'
+import Footer from '../components/footer';
+import PopupMail from '../components/popUpMail'
 
 class Homepage extends Component {
 	render() {
@@ -12,6 +13,7 @@ class Homepage extends Component {
 			<Upperheader/>
 			<Bottomheader/>
 			<ServiceCard/>
+			<PopupMail/>
 			<Footer/>
 		</div>
 		);
