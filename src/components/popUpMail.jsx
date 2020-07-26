@@ -38,7 +38,7 @@ class Upperheader extends Component {
 				<React.Fragment>
 					<div className={className}>
 						<div className='row'>
-							<div className='col-lg-5 col-md-12 col-sm-12 popmail-box text-left text-white' style={{backgroundColor:'rgb(0, 123, 193)'}}>
+							<div className='col-lg-5 col-md-12 col-sm-12 popmail-box text-left text-white' style={{backgroundColor:'#006a71'}}>
 								<div className='fs-24 font-weight-bold mb-12'>
 									Get latest updates in web technologies
 									<span className='fl-r mt-m-20 cursor' onClick={()=>this.selectDiselect()}>

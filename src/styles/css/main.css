@@ -1,20 +1,105 @@
 .head-upper {
-	background-color: ​#e5e5e5;
-	font-size: 16px;
-	width: 100%;
-	margin-top: -200px;
-	z-index: 1000;
-	position: fixed;
-}
-
-.head-upper-true {
-	background-color: ​#e5e5e5;
+	color: white;
 	font-size: 16px;
 	width: 100%;
 	z-index: 1000;
 	position: fixed;
 }
-
+.bg-blue {
+	background-color: #0779e4;
+}
+.navbar-light .navbar-brand {
+	color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: white !important
+}
+.bold-white {
+	font-weight: bold;
+	color: white;
+}
+.color-white {
+	color: white;
+}
+.font-light {
+	font-weight: 100;
+}
+.main-frame {
+	margin: 0;
+	padding: 210px 0px;
+	background-color: #0779e4;
+	color: white;
+	font-weight: bold;
+}
+.button-contact-us {
+	cursor: pointer;
+	background-color: transparent;
+	border: 1px white solid;
+	padding: 10px 30px;
+	border-radius: 5px;
+}
+.button-contact-us:hover {
+	cursor: pointer;
+	background-color: white;
+	border: 1px white solid;
+	padding: 10px 30px;
+	border-radius: 5px;
+	color: #0779e4;
+}
+.content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.slider-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.slider {
+	height: 50px;
+	overflow: hidden;
+}
+.slider-text1 {
+	background-color: #14b1ab;
+	border-radius: 5px;
+	animation: slide 5s linear infinite;
+}
+.slider-text2 {
+	background-color: #6a2c70;
+	border-radius: 5px;
+}
+.slider-text3 {
+	background-color: #184d47;
+	border-radius: 5px;
+}
+.slider div {
+	color: white;
+	height: 50px;
+	margin-bottom: 50px;
+	padding: 0px 15px;
+	text-align: center;
+	box-sizing: border-box;
+}
+@keyframes slide {
+	0% {margin-top: -300px;}
+	5% {margin-top: -200px;}
+	33% {margin-top: -200px;}
+	38% {margin-top: -100px;}
+	67% {margin-top: -100px;}
+	72% {margin-top: 0px;}
+	100% {margin-top: 0px;}
+}
+.navbar-light .navbar-toggler {
+	color: white !important;
+	border-color: white !important
+}
+.navbar-light .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(256, 256, 256)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+.pad-zero {
+	padding: 0px !important;
+}
 .fs-12 {
 	font-size: 12px;
 }
@@ -107,7 +192,7 @@
 }
 
 .gotit-button {
-	background-color: ​#007bc1;
+	background-color: ​#0779e4;
 	color: white;
 	padding: 10px;
 	border-radius: 5px;
@@ -152,10 +237,10 @@
 }
 @keyframes Slide_Up {
 	0%{
-			transform: translateY(200px);
+			transform: translateY(0px);
 	}
 	100%{
-			transform: translateY(0px);
+			transform: translateY(-200px);
 	}
 }
 .outer-box {
@@ -168,7 +253,7 @@
 
 .outer-box:hover {
 	cursor: pointer;
-	color: #007bc1;
+	color: #0779e4;
 	background-color: white;
 	padding: 10px 30px;
 	border: 1px solid white;
@@ -191,7 +276,7 @@
 }
 
 .footer-background {
-	background-color: rgb(0,74,117);
+	background-color: #0779e4;
 	padding: 30px 0px;
 	color: white;
 	position: relative;
@@ -236,6 +321,15 @@
 	display: none;
 }
 
+.distance {
+	padding: 10px;
+}
+
+.brand-name {
+	font-size: 24px;
+	padding: 10px 25px;
+}
+
 @keyframes Slide_Up_Footer {
 	0%{
 			transform: translateY(200px);
@@ -246,6 +340,9 @@
 }
 
 @media screen and (max-width: 960px) {
+	.distance {
+		padding: 0;
+	}
 	.logo-width {
 		float: left;
 	}
@@ -266,6 +363,9 @@
 }
 
 @media screen and (max-width: 480px) {
+	.distance {
+		padding: 0;
+	}
 	.logo-width {
 		position: relative;
 		z-index: 300;
