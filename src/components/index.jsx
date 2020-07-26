@@ -32,7 +32,7 @@ class Upperheader extends Component {
 										<span class="navbar-toggler-icon"></span>
 									</button>
 								</div>
-								<div className='col-lg-3'>
+								<div className='col-lg-3 shadow-head'>
 									<div class="collapse navbar-collapse" id="navbarSupportedContent">
 										<ul class="navbar-nav mr-auto">
 											<li class="nav-item active distance">
