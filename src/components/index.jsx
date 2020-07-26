@@ -19,10 +19,10 @@ class Upperheader extends Component {
 							<nav class="navbar navbar-expand-lg navbar-light bg-blue row">
 								<div className='col-lg-7 col-md-9 col-sm-9 col-9 text-left'>
 									<a class="navbar-brand brand-name" href="/">
-										<span className='bold-white'>
+										<span className='bold-white font-size-24'>
 											Duo
 										</span>
-										<span className='color-white font-light'>
+										<span className='color-white font-light font-size-24'>
 											veloper
 										</span>
 									</a>
@@ -41,7 +41,7 @@ class Upperheader extends Component {
 											<li class="nav-item distance">
 												<a class="nav-link" href="/">About</a>
 											</li>
-											<li class="nav-item distance">
+											<li class="nav-item distance margin-mobile">
 												<a class="nav-link" href="/">Contact</a>
 											</li>
 										</ul>
