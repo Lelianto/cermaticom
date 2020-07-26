@@ -340,6 +340,15 @@
 }
 
 @media screen and (max-width: 960px) {
+	.slider div {
+    color: #fff;
+    height: 50px;
+    margin-bottom: 50px;
+    padding: 0 15px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 5px;
+	}
 	.shadow-head {
 		padding: 10px 0px;
 		-webkit-box-shadow: 0px 17px 11px -14px rgba(96,58,250,1);
@@ -369,6 +378,15 @@
 }
 
 @media screen and (max-width: 480px) {
+	.slider div {
+    color: #fff;
+    height: 50px;
+    margin-bottom: 50px;
+    padding: 0 15px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 5px;
+	}
 	.shadow-head {
 		padding: 10px 0px;
 		-webkit-box-shadow: 0px 17px 11px -14px rgba(96,58,250,1);
