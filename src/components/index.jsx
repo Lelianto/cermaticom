@@ -17,7 +17,7 @@ class Upperheader extends Component {
 					<div className='row'>
 						<div className='col-lg-12 pad-zero'>
 							<nav class="navbar navbar-expand-lg navbar-light bg-blue row">
-								<div className='col-lg-7 col-md-10 col-sm-10 col-10 text-left'>
+								<div className='col-lg-7 col-md-9 col-sm-9 col-9 text-left'>
 									<a class="navbar-brand brand-name" href="/">
 										<span className='bold-white fs-24'>
 											Duo
@@ -27,7 +27,7 @@ class Upperheader extends Component {
 										</span>
 									</a>
 								</div>
-								<div className='col-lg-2 col-md-2 col-sm-2 col-2'>
+								<div className='col-lg-2 col-md-3 col-sm-3 col-3'>
 									<button class="navbar-toggler distance" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 										<span class="navbar-toggler-icon"></span>
 									</button>
