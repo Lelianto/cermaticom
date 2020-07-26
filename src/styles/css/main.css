@@ -340,6 +340,10 @@
 }
 
 @media screen and (max-width: 960px) {
+	.brand-name {
+		font-size: 24px;
+		padding: 10px 25px;
+	}
 	.slider div {
     color: #fff;
     height: 50px;
@@ -378,6 +382,10 @@
 }
 
 @media screen and (max-width: 480px) {
+	.brand-name {
+		font-size: 24px;
+		padding: 10px 25px;
+	}
 	.slider div {
     color: #fff;
     height: 50px;
